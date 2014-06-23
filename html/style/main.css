@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: yellow;
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/89.jpg');
+}
+
+header,
+footer {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid white;
+}
+
+header div,
+footer div {
+    margin: auto;
+    width: 50%;
+}
+
+hr#red_line {
+    border: 1px solid #d94e53;
+}
+
+footer {
+    border-top: 1px solid white;
+}
+
+footer h3 {
+    font-family: exo;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: ciudad;
+    font-size: 3.2em;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #aaa;
+    font-family: exo;
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+div#pres_main {
+    background-image: url('../images/pattern_37.gif');
+    box-shadow: 2px 3px 5px rgb(17,17,17) inset, 2px -3px 5px rgb(17,17,17) inset;
+    padding: 40px 0;
+    text-align: center;
+}
+
+div#pres_inner {
+    margin: auto;
+    padding: 0 4em;
+    position: relative;
+    width: 60%;
+}
+
+div#pres_inner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+div#pres_inner img#arrow_left,
+div#pres_inner img#arrow_right {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    top: 125px;
+}
+
+div#pres_inner div:nth-child(1) {
+    width: 65%;
+}
+
+div#pres_inner div:nth-child(1) img {
+    max-width: 100%;
+}
+
+div#pres_inner div:nth-child(2) {
+    width: 35%;
+}
+
+div#pres_inner img#arrow_left {
+    left: -30px;
+}
+
+div#pres_inner img#arrow_right {
+    right: -30px;
+}
+
+div#pres_inner img {
+    box-shadow: 2px 3px 5px rgb(17, 17, 17);
+}
+
+div#pres_inner h3,
+div#pres_inner p {
+    color: white;
+    padding: 0.5em;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h3#top_header {
+    display: none;
+}
+
+h3#bottom_header {
+    display: block;
+}
+
+div#pres_inner h3 {
+    font-size: 1.3em;
+}
+
+div#pres_inner p {
+    font-family: sans-serif;
+    font-size: 1.025em;
+}
+
+div#pres_inner p.link a {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: ciudad;
+    src: url('../style/fonts/ciudad_nueva-webfont.ttf');
+}
+
+@font-face {
+    font-family: exo;
+    src: url('../style/fonts/exo-thin-webfont.ttf');
+}
