@@ -38,9 +38,15 @@ footer {
     border-top: 1px solid white;
 }
 
-footer h3 {
+footer h3,
+footer h4 {
     font-family: exo;
+    font-size: 1.2em;
     font-weight: normal;
+}
+
+footer h4 a {
+    color: white;
 }
 
 h1 {

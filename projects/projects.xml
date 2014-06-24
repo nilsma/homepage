@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <project>
+        <name>rugby</name>
+        <title>Homepage for Bergen Rugbyklubb</title>
+        <paragraph>My very first, solo commercial assignment. Basically to learn XML implementation in PHP.</paragraph>
+        <paragraph>Among the client's requirements were articles, match reports and training schedule on the front page without lenghty vertical scrolling, as well as a concrete identity connected to rugby.</paragraph>
+        <paragraph>Official homepage maintained by Bergen Rugbyklubb.</paragraph>
+        <link>rugby.nima-design.net</link>
+    </project>
+    <project>
+        <name>jgi</name>
+        <title>Homepage for Financial Advisor client</title>
+        <paragraph>A small and simple, pure HTML/CSS page for financial advisor client Jan Greve-Isdahl.</paragraph>
+        <paragraph>Something something something</paragraph>
+        <link>jgi.nima-design.net</link>
+    </project>
+    <project>
+        <name>lister</name>
+        <title>A list making application</title>
+        <paragraph>This simple list making application was created to keep track of, and share, which groceries to shop. Main focus was to learn more about MVC and OOP in PHP.</paragraph>
+        <paragraph>It is free, simple and basic - feel free to try it out!</paragraph>
+        <link>lister.nima-design.net</link>
+    </project>
+</projects>

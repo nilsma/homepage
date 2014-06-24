@@ -1,3 +1,18 @@
+<?php
+session_start();
+
+include '../application/functions.class.php';
+include '../application/project.class.php';
+
+$func = new Functions();
+$projects = $func->loadProjects();
+$project = $projects[0];
+
+$name = $project->getName();
+$images = $project->getImages();
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +33,7 @@
         <div id="pres_inner">
             <div>
                 <h3 id="top_header">Homepage for Bergen Rugbyklubb 2013</h3>
-                <img id="screenshot" src="images/screenshot_rugby.jpg" alt="project screenshot"/>
+                <img id="screenshot" src="<?php echo 'images/projects/' . $name . '/' . $images[1]; ?>" alt="project screenshot"/>
             </div>
             <div>
                 <h3 id="bottom_header">Homepage for Bergen Rugbyklubb 2013</h3>
@@ -34,7 +49,7 @@
     <footer>
         <div>
             <h3>&copy; nils martinussen 2012</h3>
-            <h4><a class="focusTextWhite" href="mailto:nils%2emartinussen%40gmail%2ecom?subject=Web Design" tabindex="5" title="Send me an email">nils@nima-design.net</a></h4>
+            <h4><a href="mailto:nils%2emartinussen%40gmail%2ecom?subject=Web Design" title="Send me an email">nils@nima-design.net</a></h4>
         </div>
     </footer>
 </div> <!-- end #main_container -->
