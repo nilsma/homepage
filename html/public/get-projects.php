@@ -1,19 +1,25 @@
 <?php
 
-/*
-include 'functions.class.php';
-include 'project.class.php';
-*/
+include '../../application/functions.class.php';
+include '../../application/project.class.php';
 
-echo 'test result';
+$return_data = array();
 
-/*
 $func = new Functions();
 $projects = $func->loadProjects();
-$project = $projects[0];
+
+foreach($projects as $project) {
+    $project_data = array(
+        'name' => $project->getName(),
+        'title' => $project->getTitle(),
+        'paragraphs' => $project->getParagraphs(),
+        'images' => $project->getImages()
+    );
+
+    $return_data[] = $project_data;
+}
 
 header('Content-type: application/json');
-echo json_encode($project, JSON_FORCE_OBJECT);
-*/
+echo json_encode($return_data, JSON_FORCE_OBJECT);
 
 ?>

@@ -21,7 +21,7 @@ if(!class_exists('Functions')) {
                     if($entry === '.' || $entry === '..') {
                         continue;
                     } else {
-                        $paths[] = $entry;
+                        $paths[] = (string) $entry;
                     }
                 }
             }
@@ -34,12 +34,12 @@ if(!class_exists('Functions')) {
             $xml = simplexml_load_file($this->data);
 
             foreach($xml as $node) {
-                $name = $node->name;
-                $title = $node->title;
+                $name = (string) $node->name;
+                $title = (string) $node->title;
                 $paragraphs = array();
 
                 foreach($node->paragraph as $par) {
-                    $paragraphs[] = $par;
+                    $paragraphs[] = (string) $par;
                 }
 
                 $images = $this->getImagesPaths($name);

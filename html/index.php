@@ -1,3 +1,29 @@
+<?php
+
+/*
+include '../application/functions.class.php';
+include '../application/project.class.php';
+
+$func = new Functions();
+$projects = $func->loadProjects();
+$project = $projects[0];
+
+echo 'type of: ' . gettype($project) . '<br/>';
+echo 'name: ' . $project->getName() . '<br/>';
+echo 'title: ' . $project->getTitle() . '<br/>';
+$pars = $project->getParagraphs();
+echo 'paragraphs: <br/>';
+foreach($pars as $par) {
+    echo '-- ' . $par . '<br/>';
+}
+
+$images = $project->getImages();
+foreach($images as $img) {
+    echo '-- ' . $img . '<br/>';
+}
+*/
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +45,7 @@
         <div id="pres_inner">
             <div>
                 <h3 id="top_header">Homepage for Bergen Rugbyklubb 2013</h3>
-                <img id="screenshot" src="images/screenshot_rugby.jpg" alt="project screenshot"/>
+                <img id="screenshot" src="images/projects/rugby/rugby1.jpg" alt="project screenshot"/>
             </div>
             <div>
                 <h3 id="bottom_header">Homepage for Bergen Rugbyklubb 2013</h3>
