@@ -2,43 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73da85d0-4bf4-4b1e-8171-f97c7d3ad069" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/jgi/jgi1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/jgi/jgi1b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/jgi/jgi2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/jgi/jgi2b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/jgi/jgi3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/jgi/jgi3b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/lister/lister2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/lister/lister3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/lister/lister_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/rugby/rugby5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/rugby/rugby6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/rugby/rugby7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/projects/rugby/rugby8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/screenshot_konsoll.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/screenshot_rugby.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/jgi/jgi1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/jgi/jgi1b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/jgi/jgi2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/jgi/jgi2b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/jgi/jgi3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/jgi/jgi3b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/jgi/jgi4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/rugby/rugby8.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/functions.class.php" afterPath="$PROJECT_DIR$/application/functions.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/public/get-projects.php" afterPath="$PROJECT_DIR$/html/public/get-projects.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.php" afterPath="$PROJECT_DIR$/html/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style/main.css" afterPath="$PROJECT_DIR$/html/style/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/main.js" afterPath="$PROJECT_DIR$/html/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/project.class.php" afterPath="$PROJECT_DIR$/application/project.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/projects.xml" afterPath="$PROJECT_DIR$/projects/projects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/lister/huldra1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/lister/huldra2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/lister/huldra3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/lister/huldra5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi/jgi1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi/jgi1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi1b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi/jgi2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi2b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/jgi3b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/lister1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/lister2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/lister3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/rugby5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/rugby6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/rugby7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/projects/rugby8.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homepage.iws" />
@@ -84,7 +67,9 @@
         <entry file="file://$PROJECT_DIR$/html/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="866" column="17" selection-start="14250" selection-end="14250" vertical-scroll-proportion="0.0" vertical-offset="18589" max-vertical-offset="20020">
-              <folding />
+              <folding>
+                <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -361,19 +346,24 @@
       <created>1403683569706</created>
       <updated>1403683569706</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added javascript with animation for page intro, and css for responsive design">
+      <created>1404575497836</created>
+      <updated>1404575497836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19335347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19316968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -383,7 +373,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39958158" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -405,7 +394,8 @@
     <MESSAGE value="added pictures and fonts to repo" />
     <MESSAGE value="added xml for projects presentation, and also added functions and project classes" />
     <MESSAGE value="started implementing javascripts for fetching projects and initiating slideshow" />
-    <option name="LAST_COMMIT_MESSAGE" value="started implementing javascripts for fetching projects and initiating slideshow" />
+    <MESSAGE value="added javascript with animation for page intro, and css for responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="added javascript with animation for page intro, and css for responsive design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -435,7 +425,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="13" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3916">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,7 +469,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="1" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3652">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -519,7 +513,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="1" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3652">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,7 +557,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3652">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -596,7 +594,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3652">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -624,7 +624,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3652">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,7 +654,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3652">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +684,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3652">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,7 +710,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="134" column="18" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0" vertical-offset="2507" max-vertical-offset="3542">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -751,7 +759,9 @@
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="866" column="17" selection-start="14250" selection-end="14250" vertical-scroll-proportion="0.0" vertical-offset="18589" max-vertical-offset="20020">
-          <folding />
+          <folding>
+            <marker date="1404575403064" expanded="true" signature="10909:12147" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
