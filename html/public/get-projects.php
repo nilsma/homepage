@@ -13,7 +13,8 @@ foreach($projects as $project) {
         'name' => $project->getName(),
         'title' => $project->getTitle(),
         'paragraphs' => $project->getParagraphs(),
-        'images' => $project->getImages()
+        'images' => $project->getImages(),
+        'link' => $project->getLink()
     );
 
     $return_data[] = $project_data;

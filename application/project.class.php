@@ -7,12 +7,14 @@ if(!class_exists('Project')) {
         protected $title;
         protected $paragraphs;
         protected $images;
+        protected $link;
 
-        public function __construct($name, $title, $paragraphs, $images) {
+        public function __construct($name, $title, $paragraphs, $images, $link) {
             $this->name = $name;
             $this->title = $title;
             $this->paragraphs = $paragraphs;
             $this->images = $images;
+            $this->link = $link;
         }
 
         public function getName() {
@@ -29,6 +31,10 @@ if(!class_exists('Project')) {
 
         public function getImages() {
             return $this->images;
+        }
+
+        public function getLink() {
+            return $this->link;
         }
 
     }

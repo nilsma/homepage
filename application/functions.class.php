@@ -43,8 +43,9 @@ if(!class_exists('Functions')) {
                 }
 
                 $images = $this->getImagesPaths($name);
+                $link = (string) $node->link;
 
-                $project = new Project($name, $title, $paragraphs, $images);
+                $project = new Project($name, $title, $paragraphs, $images, $link);
                 $projects[] = $project;
             }
 
