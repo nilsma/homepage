@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73da85d0-4bf4-4b1e-8171-f97c7d3ad069" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style/main.css" afterPath="$PROJECT_DIR$/html/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/main.js" afterPath="$PROJECT_DIR$/html/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,7 +38,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="30" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.71305287" vertical-offset="703" max-vertical-offset="5764">
+            <state line="62" column="32" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.71305287" vertical-offset="703" max-vertical-offset="5764">
               <folding />
             </state>
           </provider>
@@ -294,13 +293,18 @@
       <created>1404575921606</created>
       <updated>1404575921606</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added transition effects to slideshow">
+      <created>1404635637581</created>
+      <updated>1404635637581</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -316,7 +320,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39958158" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -340,7 +343,8 @@
     <MESSAGE value="started implementing javascripts for fetching projects and initiating slideshow" />
     <MESSAGE value="added javascript with animation for page intro, and css for responsive design" />
     <MESSAGE value="added missing images to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="added missing images to git" />
+    <MESSAGE value="added transition effects to slideshow" />
+    <option name="LAST_COMMIT_MESSAGE" value="added transition effects to slideshow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -692,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="30" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.71305287" vertical-offset="703" max-vertical-offset="5764">
+        <state line="62" column="32" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.71305287" vertical-offset="703" max-vertical-offset="5764">
           <folding />
         </state>
       </provider>
