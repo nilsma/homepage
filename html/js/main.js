@@ -59,24 +59,9 @@ function setImage(project_name, image) {
     }
 
     setNextCanvasImage(next_canvas, path, function() {
-        hideCurrentCanvas(current_canvas, function() {
-            displayNextCanvas(next_canvas);
-        })
+        $(current_canvas).fadeOut(500);
+        $(next_canvas).fadeIn(500);
     });
-}
-
-function displayNextCanvas(next_canvas) {
-    next_canvas.style.display='block';
-}
-
-function hideCurrentCanvas(current_canvas, callback) {
-    current_canvas.style.display='none';
-    callback();
-}
-
-function setNextCanvasImage(next_canvas, path, callback) {
-    next_canvas.setAttribute('src', path);
-    callback();
 }
 
 function setProjectParagraphs(project_paragraphs) {
@@ -91,13 +76,6 @@ function setProjectLink(link) {
     document.getElementById('link').children[0].setAttribute('href', url);
 }
 
-function displayProject(project) {
-    setProjectTitle(project.title);
-    setProjectParagraphs(project.paragraphs);
-    setProjectLink(project.link);
-    setImage(project.name, project.images[0]);
-}
-
 function setCounter(limit, current, callback) {
     var incremented;
     if(current < limit - 1) {
@@ -109,36 +87,6 @@ function setCounter(limit, current, callback) {
     callback(incremented);
 }
 
-function runSlideshow(projects, counter) {
-    var keys = Object.keys(projects);
-    var project = projects[keys[counter]];
-
-    displayProject(project);
-
-    roundabout(project.name, project.images, function() {
-       setCounter(keys.length, counter, function(incremented) {
-           runSlideshow(projects, incremented);
-       });
-    });
-}
-
-function roundabout(project_name, images, callback) {
-    var counter = 1;
-    var keys = Object.keys(images);
-
-    var interval = setInterval(function() {
-        if(counter >= keys.length) {
-            clearInterval(interval);
-            callback();
-        } else {
-            setImage(project_name, images[counter]);
-            counter++;
-        }
-    }, 3000);
-
-    setIntervalId(interval);
-}
-
 function setIntervalId(id) {
     interval_id = id;
 }
@@ -148,17 +96,8 @@ function setSlideshowId(id, callback) {
     callback();
 }
 
-function initSlideshow(id, callback) {
-    getProjects(function(projects) {
-        setSlideshowId(id, function() {
-            runSlideshow(projects, slideshow_id);
-            callback();
-        });
-    });
-}
-
-function stopSlides(callback) {
-    clearInterval(interval_id);
+function setNextCanvasImage(next_canvas, path, callback) {
+    next_canvas.setAttribute('src', path);
     callback();
 }
 
@@ -186,6 +125,57 @@ function setNextSlideshow(current, callback) {
         }
         callback(next);
     });
+}
+
+function displayProject(project) {
+    setProjectTitle(project.title);
+    setProjectParagraphs(project.paragraphs);
+    setProjectLink(project.link);
+    setImage(project.name, project.images[0]);
+}
+
+function runSlideshow(projects, counter) {
+    var keys = Object.keys(projects);
+    var project = projects[keys[counter]];
+
+    displayProject(project);
+
+    roundabout(project.name, project.images, function() {
+       setCounter(keys.length, counter, function(incremented) {
+           runSlideshow(projects, incremented);
+       });
+    });
+}
+
+function roundabout(project_name, images, callback) {
+    var counter = 1;
+    var keys = Object.keys(images);
+
+    var interval = setInterval(function() {
+        if(counter >= keys.length) {
+            clearInterval(interval);
+            callback();
+        } else {
+            setImage(project_name, images[counter]);
+            counter++;
+        }
+    }, 4000);
+
+    setIntervalId(interval);
+}
+
+function initSlideshow(id, callback) {
+    getProjects(function(projects) {
+        setSlideshowId(id, function() {
+            runSlideshow(projects, slideshow_id);
+            callback();
+        });
+    });
+}
+
+function stopSlides(callback) {
+    clearInterval(interval_id);
+    callback();
 }
 
 function previousSlide() {
