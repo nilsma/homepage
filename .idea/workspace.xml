@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73da85d0-4bf4-4b1e-8171-f97c7d3ad069" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style/main.css" afterPath="$PROJECT_DIR$/html/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/main.js" afterPath="$PROJECT_DIR$/html/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -47,7 +48,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="933" column="18" selection-start="15411" selection-end="15411" vertical-scroll-proportion="0.0" vertical-offset="19931" max-vertical-offset="21670">
+            <state line="855" column="21" selection-start="14156" selection-end="14156" vertical-scroll-proportion="0.0" vertical-offset="18369" max-vertical-offset="21670">
               <folding />
             </state>
           </provider>
@@ -305,7 +306,11 @@
       <created>1404638292516</created>
       <updated>1404638292516</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixed jumping image bug in slideshow">
+      <created>1404638581866</created>
+      <updated>1404638581866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -699,7 +704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="933" column="18" selection-start="15411" selection-end="15411" vertical-scroll-proportion="0.0" vertical-offset="19931" max-vertical-offset="21670">
+        <state line="855" column="21" selection-start="14156" selection-end="14156" vertical-scroll-proportion="0.0" vertical-offset="18369" max-vertical-offset="21670">
           <folding />
         </state>
       </provider>

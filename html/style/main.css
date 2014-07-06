@@ -768,7 +768,7 @@ div#pres_inner p#link a:active {
 
     div#pres_inner,
     div#pres_inner div:nth-child(1) {
-        height: 36em;
+        height: 30em;
     }
 
     div#pres_inner div {
@@ -853,7 +853,7 @@ div#pres_inner p#link a:active {
 
     div#pres_inner,
     div#pres_inner div:nth-child(1) {
-        height: auto;
+        height: 23em;
     }
 
     div#pres_inner div {
@@ -939,7 +939,7 @@ div#pres_inner p#link a:active {
 
     div#pres_inner,
     div#pres_inner div:nth-child(1) {
-        height: auto;
+        height: 23em;
     }
 
     div#pres_inner div {
