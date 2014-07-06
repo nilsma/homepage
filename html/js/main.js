@@ -59,8 +59,8 @@ function setImage(project_name, image) {
     }
 
     setNextCanvasImage(next_canvas, path, function() {
-        $(current_canvas).fadeOut(500);
-        $(next_canvas).delay(510).fadeIn(500);
+        $(current_canvas).fadeOut(499);
+        $(next_canvas).delay(500).fadeIn(500);
     });
 }
 
