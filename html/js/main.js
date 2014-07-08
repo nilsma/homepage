@@ -66,9 +66,9 @@ function setImage(project_name, image) {
 
 function setProjectParagraphs(project_paragraphs) {
     var paragraph_keys = Object.keys(project_paragraphs);
-    document.getElementById('open_par').innerHTML = project_paragraphs[paragraph_keys[0]];
-    document.getElementById('mid_par').innerHTML = project_paragraphs[paragraph_keys[1]];
-    document.getElementById('close_par').innerHTML = project_paragraphs[paragraph_keys[2]];
+    document.getElementById('open_par').innerText = project_paragraphs[paragraph_keys[0]];
+    document.getElementById('mid_par').innerText = project_paragraphs[paragraph_keys[1]];
+    document.getElementById('close_par').innerText = project_paragraphs[paragraph_keys[2]];
 }
 
 function setProjectLink(link) {

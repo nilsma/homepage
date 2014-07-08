@@ -100,10 +100,32 @@ div#pres_main {
 
 .mainExpand {
     height: 29em;
+    -webkit-transition: height 1.5s;
     -moz-transition: height 1.5s;
+    -ms-transition: height 1.5s;
+    -o-transition: height 1.5s;
 }
 
 div#pres_inner {
+    /*
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-flex;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    -o-flex-flow: row nowrap;
+    -webkit-box-pack: space-between;
+    -webkit-box-align: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    */
+
+    display: -webkit-box;
     display: flex;
     flex-flow: row nowrap;
     height: 24em;
@@ -112,11 +134,6 @@ div#pres_inner {
     padding: 40px 4em;
     position: relative;
     width: 60%;
-}
-
-div#pres_inner,
-div#pres_inner div:nth-child(1) {
-    height: 24em;
 }
 
 div#pres_inner img#arrow_left,
@@ -134,6 +151,8 @@ div#pres_inner div:nth-child(1) {
 }
 
 div#paragraphs {
+    -webkit-box-orient: vertical;
+    flex-flow: column;
     position: relative;
 }
 
@@ -154,6 +173,7 @@ img#ss_back {
 }
 
 div#pres_inner div:nth-child(2) {
+    height: 100%;
     width: 35%;
 }
 
@@ -193,8 +213,9 @@ div#pres_inner p {
 }
 
 div#pres_inner p#link {
+    float: none;
     position: absolute;
-    bottom: 1em;
+    bottom: 1em !important;
     width: 100%;
 }
 
@@ -762,13 +783,17 @@ div#pres_inner p#link a:active {
     }
 
     div#pres_inner {
+	-webkit-box-orient: vertical;
         flex-flow: column;
         width: 70%;
     }
 
-    div#pres_inner,
+    div#pres_inner {
+	height: 30em;
+    }
+
     div#pres_inner div:nth-child(1) {
-        height: 30em;
+        min-height: 23em;
     }
 
     div#pres_inner div {
@@ -846,14 +871,18 @@ div#pres_inner p#link a:active {
     }
 
     div#pres_inner {
+	-webkit-box-orient: vertical;
         flex-flow: column;
         padding: 0;
         width: 70%;
     }
 
-    div#pres_inner,
+    div#pres_inner {
+	height: 28em;
+    }
+
     div#pres_inner div:nth-child(1) {
-        height: 23em;
+        min-height: 13em;
     }
 
     div#pres_inner div {
@@ -899,7 +928,7 @@ div#pres_inner p#link a:active {
     }
 
     header div {
-        width: 90%;
+	width: 90%;
     }
 
     h1 {
@@ -932,14 +961,19 @@ div#pres_inner p#link a:active {
     }
 
     div#pres_inner {
+	-webkit-box-orient: vertical;
         flex-flow: column;
-        padding: 0 20px;
+	padding: 0 20px;
         width: 75%;
     }
 
-    div#pres_inner,
+
+    div#pres_inner {
+        height: 21em;
+    }
+
     div#pres_inner div:nth-child(1) {
-        height: 23em;
+        min-height: 13em;
     }
 
     div#pres_inner div {
