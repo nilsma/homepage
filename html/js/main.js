@@ -59,16 +59,22 @@ function setImage(project_name, image) {
     }
 
     setNextCanvasImage(next_canvas, path, function() {
-        $(current_canvas).fadeOut(199);
-        $(next_canvas).delay(200).fadeIn(500);
+	hideCanvas(current_canvas, function() {
+	    $(next_canvas).fadeIn(500); 
+	});
     });
+}
+
+function hideCanvas(element, callback) {
+    element.style.display='none';
+    callback();
 }
 
 function setProjectParagraphs(project_paragraphs) {
     var paragraph_keys = Object.keys(project_paragraphs);
-    document.getElementById('open_par').innerText = project_paragraphs[paragraph_keys[0]];
-    document.getElementById('mid_par').innerText = project_paragraphs[paragraph_keys[1]];
-    document.getElementById('close_par').innerText = project_paragraphs[paragraph_keys[2]];
+    document.getElementById('open_par').innerHTML = project_paragraphs[paragraph_keys[0]];
+    document.getElementById('mid_par').innerHTML = project_paragraphs[paragraph_keys[1]];
+    document.getElementById('close_par').innerHTML = project_paragraphs[paragraph_keys[2]];
 }
 
 function setProjectLink(link) {
@@ -222,8 +228,10 @@ function hideAndRemove(callback) {
         elements[i].style.display='none';
     }
 
-    $('#title_header').removeClass('focusTextWhite');
-    $('#subtitle_header').removeClass('focusTextGray');
+    $('#title_header').removeClass('focus_text_white');
+    $('#subtitle_header').removeClass('focus_text_gray');
+    $('header').removeClass('bottom_borders');
+    $('footer').removeClass('top_borders');
 
     $('#pres_main').addClass('mainShrink');
     document.getElementById('red_line').style.width='0';
@@ -235,9 +243,12 @@ function animate(callback) {
        width: ['+=100%', 'swing']
     }, 1000, function() {
         $('#pres_main').addClass('mainExpand');
-        $('#title_header').addClass('focusTextWhite');
-        $('#subtitle_header').addClass('focusTextGray');
+        $('#title_header').addClass('focus_text_white');
+        $('#subtitle_header').addClass('focus_text_gray');
+	$('header').addClass('bottom_borders');
+	$('footer').addClass('top_borders');
         $('#pres_inner').delay(1200).fadeIn(1000);
+	$('#footer_link').delay(1500).fadeIn(3000);
     });
     callback();
 }

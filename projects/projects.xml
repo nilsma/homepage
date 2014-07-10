@@ -2,12 +2,12 @@
 <projects>
     <project>
         <name>lister</name>
-        <title>A homemade list-making application</title>
+        <title>A homemade list making application</title>
         <paragraph>
-            This simple list-making application was created to keep track of, and share, which groceries to shop.
+            This simple list making application was created to keep track of, and share, which groceries to shop.
         </paragraph>
         <paragraph>
-            Main focus was to learn more about MVC and OOP, as well as MySQL in PHP.
+            Main focus was to learn more about MVC, OOP, and MySQL in PHP.
         </paragraph>
         <paragraph>
             Technologies used are HTML5, CSS3, JavaScript, PHP, MySQL.
@@ -21,7 +21,7 @@
             My first site with dynamic content.
         </paragraph>
         <paragraph>
-            Main focus was to avoid their previous homepage's abundance of horizontal scrolling, and to learn more about using XML with PHP.
+            Main focus was to avoid most horizontal scrolling, and to learn XML with PHP.
         </paragraph>
         <paragraph>
             Technologies used are HTML, CSS, JavaScript, jQuery, PHP, XML.
@@ -30,12 +30,12 @@
     </project>
     <project>
         <name>jgi</name>
-        <title>Homepage for Financial Advisor client</title>
+        <title>Financial Advisor client homepage</title>
         <paragraph>
             A small, simple, and pure HTML/CSS homepage.
         </paragraph>
         <paragraph>
-            Main focus was to present the client's business card, which I took literally, and provide a homepage with minimal maintenance.
+            Main focus was to present the client's business card with minimal maintenance.
         </paragraph>
         <paragraph>
             Technologies used are HTML and CSS.

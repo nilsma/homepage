@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes">
     <link rel="stylesheet" href="style/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
     <script src="js/main.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <title>Nils Martinussen</title>
 </head>
 <body>
 <div id="main_container">
-    <header id="header">
+    <header id="header" class="bottom_borders">
         <div>
-            <h1 id="title_header" class="focusTextWhite">Nils Martinussen</h1>
+            <h1 id="title_header" class="focus_text_white">Nils Martinussen</h1>
             <hr id="red_line"/>
-            <h2 id="subtitle_header" class="focusTextGray">Web Design & Development</h2>
+            <h2 id="subtitle_header" class="focus_text_gray">Web Design & Development</h2>
         </div>
     </header>
     <div id="pres_main">
@@ -35,10 +36,11 @@
             <img id="arrow_right" src="images/arrows-forward-icon.png">
         </div>
     </div>
-    <footer id="footer">
+    <footer id="footer" class="top_borders">
         <div>
-            <h3 id="footer_name">&copy; nils martinussen 2012</h3>
-            <h4 id="footer_link"><a href="mailto:nils%2emartinussen%40gmail%2ecom?subject=Web Design" title="Send me an email">nils@nima-design.net</a></h4>
+            <h3 id="footer_name">nils martinussen &copy; 2014</h3>
+	    <h4 id="footer_link"><a href="mailto:nils%2emartinussen%40gmail%2ecom?subject=Web Design" title="Send me an email">nils martinussen</a> &copy; <span>2014</span></h4>
+<!--            <h4 id="footer_link"><a href="mailto:nils%2emartinussen%40gmail%2ecom?subject=Web Design" title="Send me an email">nils@nima-design.net</a></h4> -->
         </div>
     </footer>
 </div> <!-- end #main_container -->
