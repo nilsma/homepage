@@ -59,9 +59,9 @@ function setImage(project_name, image) {
     }
 
     setNextCanvasImage(next_canvas, path, function() {
-	hideCanvas(current_canvas, function() {
-	    $(next_canvas).fadeIn(500); 
-	});
+        hideCanvas(current_canvas, function() {
+            $(next_canvas).fadeIn(500);
+        });
     });
 }
 
@@ -107,12 +107,12 @@ function setNextCanvasImage(next_canvas, path, callback) {
     callback();
 }
 
-function setPreviousSlideshow(current, callback) {
+function setPreviousSlideshow(current_slideshow_id, callback) {
     getProjects(function(projects) {
         var num_projects = Object.keys(projects).length;
         var previous;
-        if(current >= 1) {
-            previous = current - 1;
+        if(current_slideshow_id >= 1) {
+            previous = current_slideshow_id - 1;
         } else {
             previous = num_projects - 1;
         }
@@ -120,14 +120,14 @@ function setPreviousSlideshow(current, callback) {
     });
 }
 
-function setNextSlideshow(current, callback) {
+function setNextSlideshow(current_slideshow_id, callback) {
     getProjects(function(projects) {
         var num_projects = Object.keys(projects).length;
         var next;
-        if(current >= num_projects - 1) {
+        if(current_slideshow_id >= num_projects - 1) {
             next = 0;
         } else {
-            next = current + 1;
+            next = current_slideshow_id + 1;
         }
         callback(next);
     });
@@ -144,12 +144,16 @@ function runSlideshow(projects, counter) {
     var keys = Object.keys(projects);
     var project = projects[keys[counter]];
 
-    displayProject(project);
+    setSlideshowId(counter, function() {
 
-    roundabout(project.name, project.images, function() {
-       setCounter(keys.length, counter, function(incremented) {
-           runSlideshow(projects, incremented);
-       });
+        displayProject(project);
+
+        roundabout(project.name, project.images, function() {
+            setCounter(keys.length, counter, function(incremented) {
+                runSlideshow(projects, incremented);
+            });
+        });
+
     });
 }
 
@@ -170,11 +174,10 @@ function roundabout(project_name, images, callback) {
     setIntervalId(interval);
 }
 
-function initSlideshow(id, callback) {
+function initSlideshow(id) {
     getProjects(function(projects) {
         setSlideshowId(id, function() {
             runSlideshow(projects, slideshow_id);
-            callback();
         });
     });
 }
@@ -256,9 +259,8 @@ function animate(callback) {
 function init() {
     hideAndRemove(function() {
         animate(function() {
-            initSlideshow(0, function() {
-                attachListeners();
-            });
+            attachListeners();
+            initSlideshow(0);
         });
     });
 }
