@@ -126,6 +126,16 @@ div#pres_inner {
     width: 60%;
 }
 
+hr#progress {
+    display: block;
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+}
+
 div#pres_inner img#arrow_left,
 div#pres_inner img#arrow_right {
     background-color: rgba(255, 255, 255, 0.7);
@@ -223,7 +233,7 @@ div#pres_inner p#link {
 }
 
 div#pres_inner p#link a {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 1px 2px 3px rgb(17, 17, 17);
     color: black;
     padding: 0.25em 0.5em;
@@ -232,7 +242,7 @@ div#pres_inner p#link a {
 }
 
 div#pres_inner p#link a:hover {
-    background-color: antiquewhite;
+    background-color: rgba(255, 255, 255, 1);
     color: black;
 }
 
