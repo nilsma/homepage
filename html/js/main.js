@@ -168,7 +168,7 @@ function roundabout(project_name, images, callback) {
             setImage(project_name, images[counter]);
             counter++;
         }
-    }, 16000);
+    }, 5000);
 
     setIntervalId(interval);
 }
